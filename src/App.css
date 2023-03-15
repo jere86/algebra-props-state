@@ -12,7 +12,7 @@ body {
 
 .table-row {
   display: grid;
-  grid-template-columns: 50px 90px 140px 130px 200px 90px 80px;
+  grid-template-columns: 50px 90px 140px 130px 200px 90px 80px 80px;
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid;
@@ -50,4 +50,17 @@ option[value="green"] {
 
 .green > div {
   background: green;
+}
+
+#table-filters {
+  margin-bottom: 5px;
+}
+
+#table-filters > div {
+  display: flex;
+  margin-top: 10px;
+}
+
+#table-filters .filter-name {
+  width: 100px;
 }
