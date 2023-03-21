@@ -1,7 +1,8 @@
 
 function TableRow(props) {
   const handleDelete = () => {
-    console.log("Delete " + props.contact.name);
+    const userId = props.contact.id;
+    props.deleteUser(userId);
   }
 
   return (

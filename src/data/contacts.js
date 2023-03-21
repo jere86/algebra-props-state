@@ -25,15 +25,15 @@ export function Osoba(
   this.id = dohvatiNasumičniIdentifikator();
 }
 
-export const contacts = [
+export let contacts = [
   new Osoba(
     "Ivo",
-    "ivić",
+    "Ivić",
     "12.05.1999",
     "156181554",
     "Moja Kuca 1",
     "Split",
-    "red"
+    "Red"
   ),
   new Osoba(
     "Ante",
@@ -42,7 +42,7 @@ export const contacts = [
     "15132131554",
     "Moja Kuca 2",
     "Split",
-    "green"
+    "Green"
   ),
   new Osoba(
     "Josip",
@@ -51,7 +51,7 @@ export const contacts = [
     "153231554",
     "Moja Kuca 3",
     "Zagreb",
-    "green"
+    "Green"
   ),
   new Osoba(
     "Luka",
@@ -59,16 +59,16 @@ export const contacts = [
     "12.05.1699",
     "15313554",
     "Moja Kuca 4",
-    "Osjek",
-    "red"
+    "Osijek",
+    "Red"
   ),
   new Osoba(
-    "mate",
+    "Mate",
     "Horvat",
     "12.05.1969",
     "1561232554",
     "Moja Kuca 5",
     "Split",
-    "red"
+    "Red"
   ),
 ];

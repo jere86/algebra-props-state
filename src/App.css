@@ -1,5 +1,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 #user-table {
@@ -29,38 +32,51 @@ body {
 .category > div {
   width: 20px;
   height: 20px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 button:hover  {
   cursor: pointer;
 }
 
-option[value="red"] {
+option[value="Red"] {
   background: red;
+  text-transform: capitalize;
 }
 
-option[value="green"] {
+option[value="Green"] {
   background: green;
+  text-transform: capitalize;
 } 
 
-.red > div {
+.Red > div {
   background: red;
 }
 
-.green > div {
+.Green > div {
   background: green;
 }
 
 #table-filters {
-  margin-bottom: 5px;
+  margin: 15px;
 }
 
 #table-filters > div {
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-#table-filters .filter-name {
+.filter-name {
   width: 100px;
+}
+
+.botun {
+  margin: 15px;
+  margin-right: 0px;
+  padding: 10px;
+}
+
+.table-search {
+  display: flex;
+  margin: 60px 15px 15px;
 }
